@@ -113,8 +113,9 @@ public class AddRecipie extends AppCompatActivity {
     public void onAddClick(View v) {
         String components = "";
         boolean check = true;
-        if (!edName.getText().toString().isEmpty() || edTime.getText().toString().isEmpty()
-                || edAdress.getText().toString().isEmpty() || ((EditText) findViewById(R.id.comp1)).getText().toString().isEmpty()) {
+        if (!edName.getText().toString().isEmpty() && !edTime.getText().toString().isEmpty()
+                && !edAdress.getText().toString().isEmpty() && !((EditText) findViewById(R.id.comp1)).getText().toString().isEmpty()
+                && ((BitmapDrawable)imageView.getDrawable()).getBitmap()!=null) {
             Cursor c = db.rawQuery("select * from Recipies", null);
             if (c.moveToFirst()) {
                 if(c.getCount()>1) {
