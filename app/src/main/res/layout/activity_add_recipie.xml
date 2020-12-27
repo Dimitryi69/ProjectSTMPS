@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context=".Activities.AddRecipie">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/recName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/recTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Time"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/recAdress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Adress"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="Components amount (max 20)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/comp1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="1 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="2 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="3 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="4 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="5 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="6 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="7 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="8 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="9 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp10"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="10 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp11"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="11 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="12 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp13"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="13 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp14"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="14 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp15"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="15 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp16"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="16 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp17"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="17 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp18"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="18 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+        <EditText
+            android:id="@+id/comp19"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="19 component"
+            android:inputType="textPersonName"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/comp20"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:hint="20 component"
+            android:inputType="textPersonName"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onImageClick"
+            android:text="Pick image" />
+
+        <ImageView
+            android:id="@+id/RecImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onAddClick"
+            android:text="Add Recipie" />
+    </LinearLayout>
+
+</ScrollView>
